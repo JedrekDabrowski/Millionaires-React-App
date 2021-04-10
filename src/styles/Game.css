@@ -3,6 +3,8 @@ div.Game {
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
+    /* background-image: url(../img/dollars.jpg);
+    background-position: center bottom; */
 }
 
 div.main{
@@ -13,16 +15,13 @@ div.main{
 }
 
 aside.Scoreboard {
-    min-width: 30%;
-    background-color: #999;
+    min-width: 20%;
 }
 div.Result{
-    min-width: 70%;
-    background-color: #888;
+    min-width: 80%;
 }
 div.Question{
     display: flex;
-    background-color: #777;
     min-height: 50vh;
 }
 

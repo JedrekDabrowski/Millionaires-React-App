@@ -1,0 +1,10 @@
+.answers{
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}
+
+.answer {
+    display: flex;
+    width: 50%;
+}
