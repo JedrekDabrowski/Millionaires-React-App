@@ -1,4 +1,11 @@
 .Header{
-    background-color: grey;
     height: 15vh;
+    text-align: center;
+
+}
+.Header h1{
+    font-size: 80px;
+    background-color:rgba(0,0,0,0.8);
+    color: honeydew;
+
 }

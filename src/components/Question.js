@@ -21,7 +21,7 @@ class Question extends Component {
     render(){
         let answers = this.props.answers.sort()
         return ( 
-        <div>
+        <div className="question">
             <h2>{this.props.question}</h2>
             <div className="answers" >
                 <div className="answer left">
