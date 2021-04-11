@@ -3,7 +3,11 @@ p.score {
     border: 2px solid black;
     text-align: center;
     padding: 10px;
-    font-size: 15px;
-    background-color: rgb(226, 195, 21);
+    font-size: 25px;
+    background-color: RGB(2, 45, 130);
     
+}
+
+p.active {
+    background-color: RGB(243, 163, 6);
 }

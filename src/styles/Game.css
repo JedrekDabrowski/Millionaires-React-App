@@ -17,11 +17,14 @@ div.main{
 aside.Scoreboard {
     min-width: 20%;
 }
-div.Result{
+.question{
+    min-height: 100%;   
     min-width: 80%;
-}
-div.Question{
-    display: flex;
-    min-height: 50vh;
+    background-color:rgba(0,0,0,0.8);
 }
 
+.result{
+    min-height: 100%;   
+    min-width: 80%;
+    background-color:rgba(0,0,0,0.8);
+}
