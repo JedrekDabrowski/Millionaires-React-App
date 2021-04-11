@@ -4,7 +4,7 @@ import Question from "./Question";
 import Scoreboard from "./Scoreboard";
 import "../styles/Game.css"
 
-const API ="https://opentdb.com/api.php?amount=1&type=multiple"
+const API ="https://opentdb.com/api.php?amount=1&type=multiple&encode=base64"
 class Game extends Component {
 
     state = { 
@@ -30,13 +30,15 @@ nextQuestion = () =>{
     .then(result => result.json())
     .then(data =>{
     
-        let answers = [...data.results[0].incorrect_answers]
-        answers.push(data.results[0].correct_answer)
+        let answers = data.results[0].incorrect_answers.map(ia =>atob(ia))
+        answers.push(atob(data.results[0].correct_answer))
 
+        const question =atob(data.results[0].question)
+        const correctAnswer = atob(data.results[0].correct_answer)
         this.setState({
-            question: data.results[0].question,
+            question,
             answers,
-            correctAnswer: data.results[0].correct_answer
+            correctAnswer,
         })
     })
 
