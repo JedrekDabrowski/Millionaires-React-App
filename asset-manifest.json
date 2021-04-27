@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Millionaires-React-App/static/css/main.57e32cf6.chunk.css",
+    "main.css": "/Millionaires-React-App/static/css/main.e1252d8b.chunk.css",
     "main.js": "/Millionaires-React-App/static/js/main.2bee9b66.chunk.js",
     "main.js.map": "/Millionaires-React-App/static/js/main.2bee9b66.chunk.js.map",
     "runtime-main.js": "/Millionaires-React-App/static/js/runtime-main.ed3b90d0.js",
@@ -8,15 +8,15 @@
     "static/js/2.13a115a5.chunk.js": "/Millionaires-React-App/static/js/2.13a115a5.chunk.js",
     "static/js/2.13a115a5.chunk.js.map": "/Millionaires-React-App/static/js/2.13a115a5.chunk.js.map",
     "index.html": "/Millionaires-React-App/index.html",
-    "static/css/main.57e32cf6.chunk.css.map": "/Millionaires-React-App/static/css/main.57e32cf6.chunk.css.map",
+    "static/css/main.e1252d8b.chunk.css.map": "/Millionaires-React-App/static/css/main.e1252d8b.chunk.css.map",
     "static/js/2.13a115a5.chunk.js.LICENSE.txt": "/Millionaires-React-App/static/js/2.13a115a5.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Millionaires-React-App/static/media/dollars.b8e04ac1.jpg",
+    "static/media/App.css": "/Millionaires-React-App/static/media/dollars640.eb865e79.jpg",
     "static/media/money.146a8ab1.jpg": "/Millionaires-React-App/static/media/money.146a8ab1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ed3b90d0.js",
     "static/js/2.13a115a5.chunk.js",
-    "static/css/main.57e32cf6.chunk.css",
+    "static/css/main.e1252d8b.chunk.css",
     "static/js/main.2bee9b66.chunk.js"
   ]
 }
