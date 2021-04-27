@@ -21,3 +21,17 @@
 
     }
 }
+
+@media (max-width: 1024px) and (orientation: landscape) {
+
+    .Header {
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+
+    .Header h1 {
+        font-size: 40px;
+
+    }
+
+}

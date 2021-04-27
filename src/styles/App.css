@@ -6,10 +6,17 @@
 }
 
 div.App {
-    background-image: url(../img/dollars.jpg);
+    background-image: url(../img/dollars1280.jpg);
     background-position: center bottom;
     background-size: cover;
-    background-blend-mode: lighten;
     min-height: 100vh;
 
+}
+
+
+@media (max-width: 640px) {
+    div.App {
+
+        background-image: url(../img/dollars640.jpg);
+    }
 }

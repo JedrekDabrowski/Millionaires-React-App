@@ -19,7 +19,15 @@ p.active {
 
     p.active {
         display: block;
-        margin: 0 auto;
+        margin: 30px auto;
         width: 80%;
     }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+
+    p.score {
+        font-size: 20px;
+    }
+
 }

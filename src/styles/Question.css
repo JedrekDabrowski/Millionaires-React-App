@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-content: space-around;
     height: 70%;
+
 }
 
 
@@ -12,6 +13,8 @@
     color: honeydew;
     font-size: 30px;
     padding: 40px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 20px;
 }
 
 .answer {
@@ -65,5 +68,25 @@
         padding: 20px 20px;
         margin: 10px 0;
     }
+
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+
+    .question h2 {
+        font-size: 20px;
+
+    }
+
+    .answer {
+        width: 80%;
+    }
+
+    .answers button {
+        padding: 20px 20px;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
 
 }
