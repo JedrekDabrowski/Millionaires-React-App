@@ -1,15 +1,5 @@
-div.Game {
+div.main {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    
-
-}
-
-div.main{
-    display: flex;
-    flex-grow: 1;
     min-height: 40vh;
 
 }
@@ -17,14 +7,26 @@ div.main{
 aside.Scoreboard {
     min-width: 20%;
 }
-.question{
-    min-height: 100%;   
+
+.question {
     min-width: 80%;
-    background-color:rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.result{
-    min-height: 100%;   
+.result {
+    min-height: 100%;
     min-width: 80%;
-    background-color:rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 640px) {
+    div.main {
+        flex-direction: column;
+
+    }
+
+    aside.Scoreboard {
+        margin-bottom: 20px;
+        order: -1;
+    }
 }

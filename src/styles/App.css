@@ -4,14 +4,12 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-div.App{
+
+div.App {
     background-image: url(../img/dollars.jpg);
     background-position: center bottom;
     background-size: cover;
-    background-blend-mode:lighten;
+    background-blend-mode: lighten;
     min-height: 100vh;
-    
-}
-.Footer {
-    height: 60px;
+
 }

@@ -9,7 +9,6 @@ class Question extends Component {
     //metoda sort pomiesza kolejnosć,a by uniknąć sytuacji, że poprawan odpowiedź jest zawsze w tym samym miejscu
 
     handleAnswerChange=(e)=>{
-        console.log(e.target.value)
         this.setState({
             choosenAnswer: e.target.value,
         })
@@ -22,23 +21,23 @@ class Question extends Component {
     render(){
         let answers = this.props.answers.sort()
         return ( 
-        <div className="quiz">
+        <>
             <h2>{this.props.question}</h2>
             <div className="answers" >
 
-                <div className="answer left">
+                <div className="answer">
                 <button  name="answer" value={answers[0]} onClick={this.handleAnswerChange} id={this.state.choosenAnswer === answers[0] ? "choosen":null}>{answers[0]} </button>
                 </div>
 
-                <div className="answer right">
+                <div className="answer">
                 <button  name="answer" value={answers[1]} onClick={this.handleAnswerChange}  id={this.state.choosenAnswer === answers[1] ? "choosen":null}>{answers[1]}</button>
                 </div>
 
-                <div className="answer left">
+                <div className="answer">
                     <button name="answer" value={answers[2]} onClick={this.handleAnswerChange}  id={this.state.choosenAnswer === answers[2] ? "choosen":null}>{answers[2]}</button>
                 </div>
 
-                <div className="answer right">
+                <div className="answer">
                 <button  name="answer" value={answers[3]} onClick={this.handleAnswerChange}  id={this.state.choosenAnswer === answers[3] ? "choosen":null}>{answers[3]}</button>
                 </div>
                 <div className="final">
@@ -46,7 +45,7 @@ class Question extends Component {
                 </div>
             </div>
 
-        </div>
+        </>
      );
     }
 }

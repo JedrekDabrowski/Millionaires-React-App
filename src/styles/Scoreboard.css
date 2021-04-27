@@ -5,9 +5,21 @@ p.score {
     padding: 10px;
     font-size: 25px;
     background-color: RGB(2, 45, 130);
-    
+
 }
 
 p.active {
     background-color: RGB(243, 163, 6);
+}
+
+@media (max-width: 640px) {
+    p.score {
+        display: none;
+    }
+
+    p.active {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
 }

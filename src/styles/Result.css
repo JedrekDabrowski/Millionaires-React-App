@@ -2,14 +2,15 @@
     text-align: center;
     color: white;
 }
-.lose h1{
+
+.lose h1 {
     padding: 30px;
     font-size: 50px;
     color: red;
     text-transform: uppercase;
 }
 
-.lose p{
+.lose p {
     font-size: 40px;
     padding: 30px;
 }
@@ -19,7 +20,8 @@
     color: white;
 
 }
-.won h1{
+
+.won h1 {
     padding-top: 20px;
     font-size: 50px;
     color: green;
@@ -31,8 +33,10 @@
     padding: 10px;
 
 }
+
 img.money {
     border-radius: 10%;
+    width: 40%;
 
 }
 
@@ -41,7 +45,7 @@ p span {
     text-transform: uppercase;
 }
 
-button.newGame{
+button.newGame {
     margin: 0 25%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -49,9 +53,37 @@ button.newGame{
     padding: 30px 50px;
     font-size: 20px;
     cursor: pointer;
-    min-width: 50%;
     background-color: RGB(243, 163, 6);
     border-radius: 40%;
     outline: none;
     border: 2px solid black;
+}
+
+@media (max-width: 640px) {
+
+    .won h1 {
+        font-size: 30px;
+    }
+
+    .won p {
+        font-size: 20px;
+    }
+
+    img.money {
+        width: 80%;
+
+    }
+
+    button.newGame {
+        padding: 30px 15px;
+    }
+
+    .lose p {
+        font-size: 30px;
+    }
+
+    .lose p {
+        font-size: 20px;
+
+    }
 }
