@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Millionaires-React-App/static/css/main.30de5c79.chunk.css",
-    "main.js": "/Millionaires-React-App/static/js/main.2bee9b66.chunk.js",
-    "main.js.map": "/Millionaires-React-App/static/js/main.2bee9b66.chunk.js.map",
+    "main.css": "/Millionaires-React-App/static/css/main.862bdd7a.chunk.css",
+    "main.js": "/Millionaires-React-App/static/js/main.79a97bb1.chunk.js",
+    "main.js.map": "/Millionaires-React-App/static/js/main.79a97bb1.chunk.js.map",
     "runtime-main.js": "/Millionaires-React-App/static/js/runtime-main.ed3b90d0.js",
     "runtime-main.js.map": "/Millionaires-React-App/static/js/runtime-main.ed3b90d0.js.map",
-    "static/js/2.13a115a5.chunk.js": "/Millionaires-React-App/static/js/2.13a115a5.chunk.js",
-    "static/js/2.13a115a5.chunk.js.map": "/Millionaires-React-App/static/js/2.13a115a5.chunk.js.map",
+    "static/js/2.8dbc16ec.chunk.js": "/Millionaires-React-App/static/js/2.8dbc16ec.chunk.js",
+    "static/js/2.8dbc16ec.chunk.js.map": "/Millionaires-React-App/static/js/2.8dbc16ec.chunk.js.map",
     "index.html": "/Millionaires-React-App/index.html",
-    "static/css/main.30de5c79.chunk.css.map": "/Millionaires-React-App/static/css/main.30de5c79.chunk.css.map",
-    "static/js/2.13a115a5.chunk.js.LICENSE.txt": "/Millionaires-React-App/static/js/2.13a115a5.chunk.js.LICENSE.txt",
+    "static/css/main.862bdd7a.chunk.css.map": "/Millionaires-React-App/static/css/main.862bdd7a.chunk.css.map",
+    "static/js/2.8dbc16ec.chunk.js.LICENSE.txt": "/Millionaires-React-App/static/js/2.8dbc16ec.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Millionaires-React-App/static/media/dollars640.eb865e79.jpg",
     "static/media/money.146a8ab1.jpg": "/Millionaires-React-App/static/media/money.146a8ab1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ed3b90d0.js",
-    "static/js/2.13a115a5.chunk.js",
-    "static/css/main.30de5c79.chunk.css",
-    "static/js/main.2bee9b66.chunk.js"
+    "static/js/2.8dbc16ec.chunk.js",
+    "static/css/main.862bdd7a.chunk.css",
+    "static/js/main.79a97bb1.chunk.js"
   ]
 }
