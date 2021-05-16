@@ -1,23 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import '../styles/Question.css';
+import GameContext from './GameContext';
 function Question(props) {
   const [choosenAnswer, setChoosenAnswer] = useState('');
   //props.answers zawiera zawsze dobra odpowiedz na koncu
   //metoda sort pomiesza kolejnosć,a by uniknąć sytuacji, że poprawan odpowiedź jest zawsze w tym samym miejscu
+
+  const gameCtx = useContext(GameContext);
 
   function handleAnswerChange(e) {
     setChoosenAnswer(e.target.value);
   }
   function handleFinalAnswer(e) {
     e.preventDefault();
-    props.result(choosenAnswer);
+    gameCtx.handleAnswer(choosenAnswer);
   }
 
-  let answers = props.answers.sort();
+  let answers = gameCtx.answers.sort();
 
   return (
     <>
-      <h2>{props.question}</h2>
+      <h2>{gameCtx.question}</h2>
       <div className='answers'>
         {answers.map((answer, id) => (
           <div key={id} className='answer'>

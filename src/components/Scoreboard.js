@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../styles/Scoreboard.css';
+import GameContext from './GameContext';
 function Scoreboards(props) {
   const scoreArray = [
     '1 000 000',
@@ -15,12 +16,16 @@ function Scoreboards(props) {
     '1000',
     '500',
   ];
+
+  const gameCtx = useContext(GameContext);
   return (
     <div>
       {scoreArray.map((score, id) => (
         <p
           key={id}
-          className={props.level === 12 - id ? 'active score' : ' score'}
+          className={
+            gameCtx.gameResult.level === 12 - id ? 'active score' : ' score'
+          }
         >
           {scoreArray[id]}
         </p>
